@@ -56,8 +56,9 @@ export const clinic = {
     tituloAntes: "Silvana, em ",
     tituloDestaque: "poucas",
     tituloDepois: " palavras",
+    foto: "/img/silvana-sobre.jpg",
     paragrafos: [
-      "Psicóloga clínica na modalidade online, com atendimento a pacientes de diversos convênios e particular.",
+      "Sou Silvana, psicóloga clínica com atendimento online para pacientes de diversos convênios e particular. Meu trabalho é oferecer um espaço seguro, ético e profundamente humano para quem está atravessando um momento difícil. Aqui você é escutada com atenção, sem julgamento e sem fórmulas prontas. Cada história é única e cada processo respeita o seu tempo.",
     ],
     ficha: [
       { rotulo: "Abordagem", valor: "Abordagem Centrada na Pessoa (humanista)" },
@@ -71,13 +72,41 @@ export const clinic = {
     tituloDestaque: "posso",
     tituloDepois: " ajudar",
     lista: [
-      "Ansiedade",
-      "Estresse",
-      "Luto",
-      "Envelhecimento",
-      "Apoio a cuidadores",
-      "Transições de vida",
-      "Conflitos pessoais",
+      {
+        titulo: "Ansiedade",
+        texto:
+          "Quando a mente não descansa, o corpo tensiona e o dia a dia fica pesado. A terapia ajuda a compreender o que está por trás da ansiedade e a construir formas mais leves de lidar com ela.",
+      },
+      {
+        titulo: "Estresse",
+        texto:
+          "Quando as exigências aumentam e a energia acaba. Um espaço para organizar pensamentos, reconhecer limites e recuperar o equilíbrio.",
+      },
+      {
+        titulo: "Luto",
+        texto:
+          "A perda muda tudo. Aqui o luto é acolhido com respeito, sem pressa e sem a obrigação de superar rápido. Cada dor tem seu tempo.",
+      },
+      {
+        titulo: "Envelhecimento",
+        texto:
+          "Envelhecer traz perguntas, medos e também novas possibilidades. Um espaço para falar de solidão, invisibilidade, autonomia e recomeço, com dignidade e protagonismo depois dos 50 e dos 60.",
+      },
+      {
+        titulo: "Apoio a quem cuida de um familiar",
+        texto:
+          "Este espaço é para quem cuida de um familiar: pai, mãe, marido, esposa, filho, irmão. Não é só para o cuidador profissional contratado. É principalmente para você, que cuida por amor, em casa, todos os dias, e muitas vezes sem ajuda. Cuidar de quem a gente ama é bonito, mas também cansa, sobrecarrega e isola. Aqui você encontra escuta qualificada, apoio emocional e ferramentas para se organizar, colocar limites e cuidar sem se anular. Quem cuida de um familiar também precisa ser cuidado.",
+      },
+      {
+        titulo: "Transições de vida",
+        texto:
+          "Aposentadoria, ninho vazio, separação, mudanças. Momentos de travessia pedem espaço para elaborar o que ficou para trás e construir o que vem pela frente.",
+      },
+      {
+        titulo: "Conflitos pessoais",
+        texto:
+          "Quando as relações ficam difíceis, em família, no trabalho ou consigo mesma. A terapia ajuda a colocar em palavras o que estava apenas doendo, e a encontrar novas formas de se relacionar.",
+      },
     ],
   },
 
@@ -136,7 +165,7 @@ export const clinic = {
       { rotulo: "Como funciona", href: "#como-funciona" },
       { rotulo: "Atendimento", href: "#atendimento" },
     ],
-    temas: ["Ansiedade", "Estresse", "Luto", "Envelhecimento", "Apoio a cuidadores"],
+    temas: ["Ansiedade", "Estresse", "Luto", "Envelhecimento", "Apoio a quem cuida de um familiar"],
     contato: ["Atendimento online"],
     emergencia: "Em situação de emergência, ligue 188 (CVV) ou 192 (SAMU).",
     botao: "Agendar conversa",

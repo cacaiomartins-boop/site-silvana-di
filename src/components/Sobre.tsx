@@ -1,5 +1,5 @@
 import { clinic } from "../data/clinic";
-import { Aneis, Hex, Ondas } from "./Icons";
+import { Aneis, Ondas } from "./Icons";
 import { Eyebrow, Ornamento, Titulo } from "./Parts";
 
 export default function Sobre() {
@@ -14,14 +14,11 @@ export default function Sobre() {
       </div>
       <div className="wrap duas inv">
         <div className="foto-lado rv">
-          <div className="painel">
-            <div className="pn-simbolo">
-              <Hex size={150} sw={1.1} />
-            </div>
-            <div className="pn-txt">
-              <b>{clinic.nome}</b>
-              <span>{clinic.profissao}</span>
-              <em>{clinic.registro}</em>
+          <div className="arco-wrap">
+            <div className="halo"></div>
+            <div className="halo h2"></div>
+            <div className="frame">
+              <img src={s.foto} alt={clinic.fotoAlt} loading="lazy" />
             </div>
           </div>
         </div>

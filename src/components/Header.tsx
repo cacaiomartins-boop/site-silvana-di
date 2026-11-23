@@ -8,7 +8,7 @@ export default function Header() {
         <a className="marca" href="#topo">
           <Hex size={52} sw={1.3} />
           <span>
-            <b style={{ fontSize: 28 }}>{clinic.nome}</b>
+            <b>{clinic.nome}</b>
             <small>{clinic.profissao}</small>
           </span>
         </a>

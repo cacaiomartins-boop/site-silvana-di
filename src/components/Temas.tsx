@@ -1,5 +1,5 @@
 import { clinic } from "../data/clinic";
-import { Aneis, Hex, Ramo } from "./Icons";
+import { Aneis, Ramo } from "./Icons";
 import { CabSec, Titulo } from "./Parts";
 
 export default function Temas() {
@@ -16,14 +16,12 @@ export default function Temas() {
         <CabSec n="02" label={t.rotulo}>
           <Titulo antes={t.tituloAntes} destaque={t.tituloDestaque} depois={t.tituloDepois} />
         </CabSec>
-        <ol className="tgrid" style={{ ["--tch" as string]: "185px" }}>
-          {t.lista.map((nome, i) => (
-            <li className="tcard rv" data-d={(i % 4) * 90} key={nome}>
-              <span className="tsim">
-                <Hex size={54} sw={1.1} />
-              </span>
+        <ol className="tgrid tdesc">
+          {t.lista.map((tema, i) => (
+            <li className={`tcard rv t${i + 1}`} data-d={(i % 3) * 90} key={tema.titulo}>
               <i>{String(i + 1).padStart(2, "0")}</i>
-              <b>{nome}</b>
+              <b>{tema.titulo}</b>
+              <p>{tema.texto}</p>
             </li>
           ))}
         </ol>
