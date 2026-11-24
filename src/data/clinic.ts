@@ -15,8 +15,9 @@ export const clinic = {
   whatsapp: "5511997767770",
   whatsappMensagem: "Olá, Silvana! Vim pelo seu site e gostaria de agendar uma conversa.",
 
-  foto: "/img/silvana.jpg",
-  fotoAlt: "Silvana Di Stasi",
+  foto: "/img/silvana.webp",
+  fotoAlt: "Silvana Di Stasi, psicóloga, sorrindo",
+  fotoSobreAlt: "Silvana Di Stasi, psicóloga, de óculos escuros e blusa jeans",
 
   hero: {
     rotulo: "Psicóloga · São Paulo",
@@ -56,7 +57,7 @@ export const clinic = {
     tituloAntes: "Silvana, em ",
     tituloDestaque: "poucas",
     tituloDepois: " palavras",
-    foto: "/img/silvana-sobre.jpg",
+    foto: "/img/silvana-sobre.webp",
     paragrafos: [
       "Sou Silvana, psicóloga clínica com atendimento online para pacientes de diversos convênios e particular. Meu trabalho é oferecer um espaço seguro, ético e profundamente humano para quem está atravessando um momento difícil. Aqui você é escutada com atenção, sem julgamento e sem fórmulas prontas. Cada história é única e cada processo respeita o seu tempo.",
     ],

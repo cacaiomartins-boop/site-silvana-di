@@ -76,8 +76,6 @@ export function Coracao({ size = 26 }: P) {
   );
 }
 
-export type NomeIcone = "hex" | "tela" | "chat" | "escudo" | "pin" | "calendario" | "coracao";
-
 export function Icone({ nome, size }: { nome: string; size: number }) {
   switch (nome) {
     case "hex":

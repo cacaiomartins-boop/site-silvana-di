@@ -18,7 +18,7 @@ export default function Sobre() {
             <div className="halo"></div>
             <div className="halo h2"></div>
             <div className="frame">
-              <img src={s.foto} alt={clinic.fotoAlt} loading="lazy" />
+              <img src={s.foto} alt={clinic.fotoSobreAlt} width={400} height={400} loading="lazy" decoding="async" />
             </div>
           </div>
         </div>

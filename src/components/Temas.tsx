@@ -20,7 +20,9 @@ export default function Temas() {
           {t.lista.map((tema, i) => (
             <li className={`tcard rv t${i + 1}`} data-d={(i % 3) * 90} key={tema.titulo}>
               <i>{String(i + 1).padStart(2, "0")}</i>
-              <b>{tema.titulo}</b>
+              <b role="heading" aria-level={3}>
+                {tema.titulo}
+              </b>
               <p>{tema.texto}</p>
             </li>
           ))}

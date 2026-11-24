@@ -1,0 +1,12 @@
+# Silvana Di Stasi - Psicóloga
+
+> Psicóloga clínica (CRP 06/33874) com atendimento online para adultos e público 50+, na abordagem centrada na pessoa, por convênios e particular.
+
+Site de página única: https://www.silvanadistasi.com.br/
+
+## Seções
+- [Sobre](https://www.silvanadistasi.com.br/#sobre): quem é a Silvana e como trabalha.
+- [Temas](https://www.silvanadistasi.com.br/#temas): ansiedade, estresse, luto, envelhecimento, apoio a quem cuida de um familiar, transições de vida e conflitos pessoais.
+- [Como funciona](https://www.silvanadistasi.com.br/#como-funciona): primeiro contato, primeira conversa, sessões e acompanhamento.
+- [Atendimento](https://www.silvanadistasi.com.br/#atendimento): atendimento online por vídeo, convênios e particular.
+- [Contato](https://www.silvanadistasi.com.br/#contato): agendar uma conversa pelo WhatsApp.

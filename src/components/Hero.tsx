@@ -56,7 +56,7 @@ export default function Hero() {
               <div className="halo"></div>
               <div className="halo h2"></div>
               <div className="frame">
-                <img src={clinic.foto} alt={clinic.fotoAlt} />
+                <img src={clinic.foto} alt={clinic.fotoAlt} width={800} height={1000} decoding="async" {...{ fetchpriority: "high" }} />
               </div>
               <div className="selo rv" data-d={900}>
                 <svg viewBox="0 0 120 120" className="gira" aria-hidden="true">

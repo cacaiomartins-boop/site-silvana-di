@@ -18,14 +18,16 @@ export default function App() {
   return (
     <>
       <Header />
-      <Hero />
-      <Faixa />
-      <Manifesto />
-      <Sobre />
-      <Temas />
-      <Passos />
-      <Atendimento />
-      <Contato />
+      <main>
+        <Hero />
+        <Faixa />
+        <Manifesto />
+        <Sobre />
+        <Temas />
+        <Passos />
+        <Atendimento />
+        <Contato />
+      </main>
       <Footer />
       <ZapFloat />
     </>

@@ -22,7 +22,7 @@ export default function Footer() {
         </div>
         <div className="rcols">
           <div className="rc">
-            <h4>Navegação</h4>
+            <h3>Navegação</h3>
             <ul>
               {r.navegacao.map((n) => (
                 <li key={n.href}>
@@ -32,7 +32,7 @@ export default function Footer() {
             </ul>
           </div>
           <div className="rc">
-            <h4>Temas</h4>
+            <h3>Temas</h3>
             <ul>
               {r.temas.map((t) => (
                 <li key={t}>{t}</li>
@@ -40,7 +40,7 @@ export default function Footer() {
             </ul>
           </div>
           <div className="rc">
-            <h4>Contato</h4>
+            <h3>Contato</h3>
             <ul>
               {r.contato.map((c) => (
                 <li key={c}>{c}</li>
